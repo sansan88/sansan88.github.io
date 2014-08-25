@@ -133,6 +133,11 @@
       background-size:100% 100%;
     }
 
+    #Section-referenzen{
+      background-color: #000;
+      background-size:100% 100%; 
+    }
+
 
     #Section-1{
       background: url(images/mob1.jpg) 50% 0% fixed repeat;
@@ -320,8 +325,8 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#top-section">Home</a></li>
-      <li><a href="#Section-1">Über mich</a></li>
-      <li><a href="#Section-2">Referenzen</a></li> 
+      <li><a href="#Section-uebermich">Über mich</a></li>
+      <li><a href="#Section-referenzen">Referenzen</a></li> 
       <li><a href="#foot-sec">Kontakt</a></li>
     </ul>
   </div><!-- /.navbar-collapse --> 
@@ -385,152 +390,75 @@
 <!--  SECTION-1 -->  
 <section id="Section-1">
   <div class="container">
-    <!-- Example row of columns 
-  <div class="row">
-    <div class="page-header color-white col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h3 style="padding-top:50px;">ÜBER MICH | Sandro Scalco</h3>
-    </div> 
-  </div>-->
-  <!--
-  <div class="row">
-    <div class="color-white  col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <div class="row">
-        <div class="col-sm-12 col-lg-12">
-          
-            <p class="lead">Als erfahrener Informatiker EFZ mit baldigem Abschluss als Bachelor of Science ZFH in Informatik bin ich der perfekte Partner.</p>
-        </div>
-      </div>  --> <!-- /INNER ROW-FLUID-->  
-    <!--</div><!-- SPAN6-->
-  <!--</div>  -->
-  
-  <!--
-  <div class="row">
-    <div class="col-sm-6 col-lg-6">
-      <div class="row">
-        <div class="col-sm-12 col-lg-12">
-          <a class="btn btn-start btn-default" href="#Section-1">DOWNLOAD CV</a>
-        </div>
-      </div> --><!-- /INNER ROW-FLUID-->
-    <!--</div><!-- SPAN6-->
-  <!--</div>-->
-
+  <!-- nur Platzhalter für Bild-->
   </div><!-- / CONTAINER-->
-</section>
+</section><!-- / SECTION-1 -->
 
-
-
-
-<!-- / SECTION-1 -->
-
-<!-- SECTION-2 -->
+<!-- Section Referenzen Section-referenzen -->
 <section id="Section-2">
 
   <div class="container">
 
-   <div class="row">
-    <div class="page-header text-center color-white col-sm-12 col-lg-12" style="padding-top:30px;">
-      <h3>REFERENZEN | wer vertraut auf mich</h3>
-    </div> 
-  </div>  
-  
-      <!-- Example row of columns -->
-      <div class="row">
-    
-       <div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3>TEAMTAC | PMTool</h3>
-        </div>
-        <div class="panel-body">
-          <p>Personal und Projektplanung in einem! Setzten Sie ihre Ressourcen noch besser ein und steigern Sie ihre effizienz!</p>
-        </div>
-        <div class="panel-footer">
-          <a class="btn btn-default" href="#">Details folgen »</a>
-        </div>
-      </div>
-    </div>        
-    
-    <!--<div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="text-center"><i class="icon-fullscreen"></i> PRICING PLAN</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row">
-            
-
+    <div class="row">
+      <div class="page-header text-center color-white col-sm-12 col-lg-12" style="padding-top:30px;">
+        <h3>REFERENZEN | wer vertraut auf mich</h3>
+      </div> 
+    </div>
+     <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>SonjaBührer Fotographie</h1>
+              <p>In Arbeit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Info</a></p>
+            </div>
           </div>
-            <ul class="list-group list-group-flush text-center">
-              <li class="list-group-item"><p class="lead text-info" style="font-size:40px"><strong>$10</strong></p></li>
-              <li class="list-group-item">Commercial use</li>
-              <li class="list-group-item">Unlimited projects</li>
-              <li class="list-group-item">27/7 support</li>
-            </ul>
         </div>
-        <div class="panel-footer">
-          <a class="btn btn-default btn-block" href="#">Select plan</a>
+        <div class="item">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>onlineabstimmen.ch</h1>
+              <p>Das onlineportal der Schweiz für kantonale und nationale Abstimmungen!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Info</a></p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>    -->
-
-    <div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3>onlineabstimmen.ch</h3>
-        </div>
-        <div class="panel-body">
-          <p>in Arbeit</p>
-          <p>Das onlineportal der Schweiz für kantonale und nationale Abstimmungen!</p>
-        </div>
-        <div class="panel-footer">
-          <a class="btn btn-default" href="#">Screenshots folgen »</a>
+        <div class="item">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>TEAMTAC | PMTool</h1>
+              <p>Personal und Projektplanung in einem! Setzten Sie ihre Ressourcen noch besser ein und steigern Sie ihre effizienz!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Info</a></p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3>SonjaBührer Fotographie</h3>
-        </div>
-        <div class="panel-body">
-          <p>in Arbeit</p>
-        </div>
-        <div class="panel-footer">
-          <a class="btn btn-default" href="#">Screenshots folgen »</a>
-        </div>
-      </div>
-    </div>   
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+  </div>  <!--container-->
+</section> <!--Section-->
 
 
-
-
-
-
-    </div> <!-- /Row -->
-
-       <div class="row">
-           <div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3>Game Development</h3>
-        </div>
-        <div class="panel-body">
-          <p>in Arbeit</p>
-          <p>Online Games! </p>
-        </div>
-        <div class="panel-footer">
-          <a class="btn btn-default" href="#">Screenshots folgen »</a>
-        </div>
-      </div>
-    </div>
-       </div>
-
-
+<!-- SECTION-2 -->
+<section id="Section-2"
+  <div class="container">
+  <!--Bild Platzhalter-->
   </div><!-- / CONTAINER-->
-  
- </section> 
- <!-- / SECTION-2 -->
+ </section> <!-- / SECTION-2 -->
  
 
       
